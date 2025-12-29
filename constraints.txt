@@ -1,0 +1,13 @@
+# OpenTelemetry Version Family Constraints
+# These pins prevent pip backtracking by forcing a consistent version cluster.
+opentelemetry-api==1.25.0
+opentelemetry-sdk==1.25.0
+opentelemetry-semantic-conventions==0.46b0
+opentelemetry-exporter-otlp-proto-http==1.25.0
+opentelemetry-exporter-otlp-proto-grpc==1.25.0
+opentelemetry-exporter-gcp-trace>=1.6.0
+opentelemetry-exporter-gcp-monitoring>=1.6.0
+opentelemetry-resourcedetector-gcp>=1.6.0
+# Add Google Cloud specific requirements if missing
+google-cloud-trace>=1.0.0
+google-cloud-monitoring>=2.0.0
